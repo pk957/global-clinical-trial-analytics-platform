@@ -117,5 +117,4 @@ The generation scripts use fixed random seeds where appropriate. The `created_at
 ## Author
 
 Prasanna Kumar
-
-Healthcare Data Analyst
+ Data Analyst
