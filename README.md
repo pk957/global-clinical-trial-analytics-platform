@@ -1,168 +1,118 @@
-# Clinical Trial Analytics Platform
+# Global Clinical Trial Analytics Platform
+
+The Global Clinical Trial Analytics Platform is an end-to-end analytics project built on synthetic oncology clinical-trial data. It models the clinical-trial lifecycle from screening through study completion and supports analysis in AWS and Power BI.
+
+> All records in this repository are synthetic. They do not represent real patients and must not be used for clinical decisions.
 
 ## Overview
 
-This project demonstrates an end-to-end healthcare data analytics pipeline using AWS and Power BI. A synthetic clinical trial dataset was generated to simulate real-world oncology clinical trials involving multiple countries, sites, investigators, subjects, laboratory results, adverse events, and treatment outcomes.
+The project contains a Python data-generation pipeline, related CSV datasets, validation checks, and a Power BI report. The data supports recruitment, site-performance, safety, clinical-operations, treatment-efficacy, and geographic analysis.
 
-The project focuses on building scalable analytics workflows for recruitment monitoring, site performance, patient safety, and clinical operations.
+## Technologies used
 
----
-
-## Project Architecture
-
-Python (Faker)
-        ↓
-CSV Files
-        ↓
-Amazon S3
-        ↓
-AWS Glue Data Catalog
-        ↓
-Amazon Athena
-        ↓
-SQL Analytics
-        ↓
-Power BI Dashboard
-
----
-
-## Technologies Used
-
-- Python
-- Faker
+- Python and Faker
+- CSV
 - Amazon S3
-- AWS Glue
+- AWS Glue Data Catalog
 - Amazon Athena
 - SQL
 - Power BI
-- Git & GitHub
-
----
+- Git and GitHub
 
 ## Dataset
 
 The project contains 14 related datasets:
 
 - Studies
-- Subjects
-- Investigators
-- Sites
-- Countries
 - Regions
+- Countries
+- Sites
+- Investigators
 - Screening
+- Subjects
+- Randomization
 - Visits
 - Laboratory Results
 - Drug Dispensing
 - Tumor Assessments
-- Randomization
 - Adverse Events
 - Study Completion
 
----
+## Data model
 
-## Analytics Modules
+| Layer | Tables | Purpose |
+| --- | --- | --- |
+| Reference | `studies`, `regions`, `countries`, `sites`, `investigators` | Trial and operational hierarchy |
+| Enrollment | `screening`, `subjects`, `randomization` | Candidate progression into the study |
+| Clinical activity | `visits`, `laboratory_results`, `drug_dispensing`, `tumor_assessments` | Treatment and assessment history |
+| Safety and disposition | `adverse_events`, `study_completion` | Safety surveillance and final subject status |
 
-### Executive Overview
+The relationships progress from studies and sites through screening, subjects, randomization, visits, and clinical fact tables. Each randomized subject has one study-completion record. A Death disposition requires a corresponding Fatal adverse event.
 
-- Total Studies
-- Total Subjects
-- Countries Participating
-- Active Sites
-- Enrollment Status
-- Study Completion
+## Data pipeline
 
----
+The Python scripts generate the datasets in dependency order:
 
-### Recruitment Analytics
+1. `01_master_data.py`
+2. `02_screening.py`
+3. `03_subjects.py`
+4. `04_randomization.py`
+5. `05_visits.py`
+6. `06_lab_results.py`
+7. `07_drug_dispensing.py`
+8. `08_tumor_assessments.py`
+9. `09_adverse_events.py`
+10. `10_study_completion.py`
 
-- Monthly Enrollment Trend
-- Screening Success Rate
-- Recruitment by Country
-- Recruitment by Site
-- Enrollment Growth
+Use the validation script to check the generated data without modifying it:
 
----
-
-### Site Performance
-
-- Subjects per Site
-- Investigator Performance
-- Visit Compliance
-- Site Rankings
-
----
-
-### Safety Analytics
-
-- Adverse Events
-- Serious Adverse Events
-- Laboratory Abnormalities
-- Safety Distribution
-
----
-
-### Clinical Operations
-
-- Drug Dispensing
-- Treatment Arms
-- Tumor Response
-- Laboratory Monitoring
-- Operational KPIs
-
----
-
-## SQL
-
-More than 50 analytical SQL queries were developed using Amazon Athena to support executive reporting and operational dashboards.
-
-Topics include:
-
-- Aggregations
-- Joins
-- Window Functions
-- CASE Statements
-- Ranking
-- Date Analysis
-- KPI Calculations
-
----
-
-## Power BI Dashboard
-
-Interactive dashboards include:
-
-- Executive Overview
-- Recruitment Analytics
-- Site Performance
-- Safety Dashboard
-- Clinical Operations Dashboard
-
----
-
-## Repository Structure
-
-```
-Clinical-Trial-Analytics/
-│
-├── data/
-├── python/
-├── sql/
-├── powerbi/
-├── screenshots/
-└── README.md
+```powershell
+python scripts/00_validate_pipeline.py
 ```
 
----
+## Power BI report
 
-## Future Improvements
+The completed Power BI report is organized into four pages:
 
-- Predictive enrollment forecasting
-- Risk-based monitoring
-- Patient dropout prediction
-- Machine learning integration
-- Real-time dashboard automation
+1. Executive Overview
+2. Safety & Clinical Operations
+3. Treatment Efficacy & Geography
+4. Supporting Analysis
 
----
+## AWS and Power BI workflow
+
+1. Generate the synthetic CSV datasets.
+2. Upload the files in `data/raw/` to Amazon S3.
+3. Create or update tables in the AWS Glue Data Catalog.
+4. Query the catalogued tables with Amazon Athena.
+5. Connect Power BI to Athena and build the report from the related trial data.
+
+## Setup
+
+Requires Python 3.10 or later.
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+
+# Regenerate the full dataset
+Get-ChildItem scripts\[0-9][0-9]_*.py | Sort-Object Name | ForEach-Object { python $_.FullName }
+```
+
+The generation scripts use fixed random seeds where appropriate. The `created_at` fields record when a script ran, so regenerating the dataset updates those timestamps.
+
+## Repository structure
+
+```text
+.
+|-- data/raw/                  # Generated synthetic CSV tables
+|-- scripts/                   # Generators and read-only validation
+|-- sql/                       # SQL analysis assets
+|-- docs/                      # Project documentation
+|-- requirements.txt
+`-- README.md
+```
 
 ## Author
 
