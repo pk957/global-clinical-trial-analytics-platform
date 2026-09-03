@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Power BI
+*.pbix
+*.pbit
+*.pbi
+Power BI AutoRecovery/
+
+# AWS
+.aws/
+*.pem
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.log

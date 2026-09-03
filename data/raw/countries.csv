@@ -1,0 +1,9 @@
+country_id,region_id,country_name,iso_code
+IND,APAC,India,IN
+SGP,APAC,Singapore,SG
+USA,NAM,United States,US
+CAN,NAM,Canada,CA
+GBR,EUR,United Kingdom,GB
+DEU,EUR,Germany,DE
+ZAF,AFR,South Africa,ZA
+KEN,AFR,Kenya,KE

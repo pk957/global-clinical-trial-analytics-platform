@@ -1,0 +1,129 @@
+investigator_id,site_id,investigator_name,specialty,years_experience,gcp_certified
+INV-0001,SITE-0001,Rushil Saini,Medical Oncology,26,Yes
+INV-0002,SITE-0001,Saumya Mall,Medical Oncology,14,No
+INV-0003,SITE-0002,Nathaniel Sami,Medical Oncology,12,Yes
+INV-0004,SITE-0002,Arunima Dugal,Medical Oncology,17,Yes
+INV-0005,SITE-0003,Gayathri Chaudry,Medical Oncology,25,Yes
+INV-0006,SITE-0003,Lajita Chatterjee,Medical Oncology,10,Yes
+INV-0007,SITE-0004,Hemangini Lalla,Medical Oncology,11,Yes
+INV-0008,SITE-0004,Tripti Yadav,Medical Oncology,27,Yes
+INV-0009,SITE-0005,Kritika Brar,Medical Oncology,25,Yes
+INV-0010,SITE-0005,Janaki Handa,Medical Oncology,25,Yes
+INV-0011,SITE-0006,Chakradev Kari,Medical Oncology,28,Yes
+INV-0012,SITE-0006,Fariq Kaul,Medical Oncology,19,Yes
+INV-0013,SITE-0007,Lajita Mall,Medical Oncology,25,Yes
+INV-0014,SITE-0007,Janya Gaba,Medical Oncology,12,Yes
+INV-0015,SITE-0008,Isha Kadakia,Medical Oncology,29,Yes
+INV-0016,SITE-0008,Ekbal Garg,Medical Oncology,12,Yes
+INV-0017,SITE-0009,Latoya Robbins,Medical Oncology,30,Yes
+INV-0018,SITE-0009,Jonathan Wilkerson,Medical Oncology,13,Yes
+INV-0019,SITE-0010,Brenda Taylor,Medical Oncology,23,Yes
+INV-0020,SITE-0010,Kimberly Burgess,Medical Oncology,15,Yes
+INV-0021,SITE-0011,Kevin Cox,Medical Oncology,20,Yes
+INV-0022,SITE-0011,Brenda Snyder PhD,Medical Oncology,25,Yes
+INV-0023,SITE-0012,Brittany Moore,Medical Oncology,13,Yes
+INV-0024,SITE-0012,Linda Cruz,Medical Oncology,28,Yes
+INV-0025,SITE-0013,Julie King,Medical Oncology,13,Yes
+INV-0026,SITE-0013,Terri Frazier,Medical Oncology,18,Yes
+INV-0027,SITE-0014,Stephen Potter,Medical Oncology,17,Yes
+INV-0028,SITE-0014,Gina Carter,Medical Oncology,9,Yes
+INV-0029,SITE-0015,Aaron Bowen,Medical Oncology,7,Yes
+INV-0030,SITE-0015,Valerie Gill,Medical Oncology,8,Yes
+INV-0031,SITE-0016,Ashley Garrett,Medical Oncology,10,Yes
+INV-0032,SITE-0016,Katie Gonzalez,Medical Oncology,18,Yes
+INV-0033,SITE-0017,Christopher Ashley,Medical Oncology,17,Yes
+INV-0034,SITE-0017,Tamara George,Medical Oncology,19,Yes
+INV-0035,SITE-0018,Brian Cox DVM,Medical Oncology,22,Yes
+INV-0036,SITE-0018,Cynthia Allen,Medical Oncology,5,Yes
+INV-0037,SITE-0019,Angela Dennis,Medical Oncology,8,Yes
+INV-0038,SITE-0019,Vanessa Patel,Medical Oncology,22,Yes
+INV-0039,SITE-0020,Matthew Arroyo,Medical Oncology,29,Yes
+INV-0040,SITE-0020,Joseph Obrien,Medical Oncology,8,Yes
+INV-0041,SITE-0021,Tanya Campos,Medical Oncology,10,Yes
+INV-0042,SITE-0021,Michelle Ross,Medical Oncology,28,Yes
+INV-0043,SITE-0022,Jacqueline Lam,Medical Oncology,13,No
+INV-0044,SITE-0022,David Brown,Medical Oncology,29,Yes
+INV-0045,SITE-0023,Julian Chapman,Medical Oncology,8,Yes
+INV-0046,SITE-0023,Michael Brown,Medical Oncology,14,Yes
+INV-0047,SITE-0024,Andre Rivera,Medical Oncology,21,Yes
+INV-0048,SITE-0024,Diana Washington,Medical Oncology,9,Yes
+INV-0049,SITE-0025,Daniel Gallagher,Medical Oncology,10,Yes
+INV-0050,SITE-0025,James Howard,Medical Oncology,29,Yes
+INV-0051,SITE-0026,Dennis Williams,Medical Oncology,5,Yes
+INV-0052,SITE-0026,Calvin Nielsen,Medical Oncology,20,Yes
+INV-0053,SITE-0027,Edward Fuller,Medical Oncology,16,Yes
+INV-0054,SITE-0027,Heidi Lee,Medical Oncology,30,Yes
+INV-0055,SITE-0028,Matthew Mejia,Medical Oncology,6,Yes
+INV-0056,SITE-0028,Dr. Sharon James,Medical Oncology,23,Yes
+INV-0057,SITE-0029,Roy Martin,Medical Oncology,7,Yes
+INV-0058,SITE-0029,Michael Miles,Medical Oncology,7,No
+INV-0059,SITE-0030,Andrea Reid,Medical Oncology,22,Yes
+INV-0060,SITE-0030,Danielle Ford,Medical Oncology,9,Yes
+INV-0061,SITE-0031,Timothy Watts,Medical Oncology,22,Yes
+INV-0062,SITE-0031,Frederick Tate,Medical Oncology,21,Yes
+INV-0063,SITE-0032,Rodney Trujillo,Medical Oncology,18,No
+INV-0064,SITE-0032,Austin Gentry,Medical Oncology,22,Yes
+INV-0065,SITE-0033,Megan Taylor,Medical Oncology,27,Yes
+INV-0066,SITE-0033,Miss Carole Woods,Medical Oncology,14,Yes
+INV-0067,SITE-0034,Ms Sheila Evans,Medical Oncology,26,Yes
+INV-0068,SITE-0034,Aaron Harrison,Medical Oncology,19,Yes
+INV-0069,SITE-0035,Brandon Hammond,Medical Oncology,19,Yes
+INV-0070,SITE-0035,Graham Wilkinson,Medical Oncology,12,Yes
+INV-0071,SITE-0036,Amanda Hall,Medical Oncology,5,Yes
+INV-0072,SITE-0036,Frances Holmes-Lloyd,Medical Oncology,12,Yes
+INV-0073,SITE-0037,Mrs Pauline Fuller,Medical Oncology,5,Yes
+INV-0074,SITE-0037,Dr Marc Phillips,Medical Oncology,25,Yes
+INV-0075,SITE-0038,Ruth Hawkins,Medical Oncology,7,Yes
+INV-0076,SITE-0038,Ms Jill Morley,Medical Oncology,15,Yes
+INV-0077,SITE-0039,Bernard Wilkins,Medical Oncology,12,Yes
+INV-0078,SITE-0039,Catherine Morris,Medical Oncology,20,Yes
+INV-0079,SITE-0040,Wayne Morris,Medical Oncology,9,Yes
+INV-0080,SITE-0040,Dr Paula Lloyd,Medical Oncology,23,Yes
+INV-0081,SITE-0041,Karl-Jürgen Gumprich,Medical Oncology,12,Yes
+INV-0082,SITE-0041,Dr. Ingrid Schacht,Medical Oncology,30,Yes
+INV-0083,SITE-0042,Rosalinde Albers,Medical Oncology,8,Yes
+INV-0084,SITE-0042,Univ.Prof. Heimo Karge,Medical Oncology,18,Yes
+INV-0085,SITE-0043,Carolin Hande,Medical Oncology,18,Yes
+INV-0086,SITE-0043,Auguste Davids,Medical Oncology,28,Yes
+INV-0087,SITE-0044,Ariane Klemt-Kaul,Medical Oncology,25,No
+INV-0088,SITE-0044,Rosalia Beyer,Medical Oncology,8,Yes
+INV-0089,SITE-0045,Kathrin Ebert MBA.,Medical Oncology,28,Yes
+INV-0090,SITE-0045,Karl-Dieter Hornig,Medical Oncology,8,Yes
+INV-0091,SITE-0046,Leonie Gröttner,Medical Oncology,11,Yes
+INV-0092,SITE-0046,Anatoli Speer,Medical Oncology,9,Yes
+INV-0093,SITE-0047,Ing. Arnulf Heintze B.Sc.,Medical Oncology,13,Yes
+INV-0094,SITE-0047,Erika Metz-Schuster,Medical Oncology,7,Yes
+INV-0095,SITE-0048,Cathrin Koch II,Medical Oncology,22,Yes
+INV-0096,SITE-0048,Delia Steckel,Medical Oncology,25,No
+INV-0097,SITE-0049,Kathryn Hughes,Medical Oncology,5,No
+INV-0098,SITE-0049,Mr William Gould,Medical Oncology,29,Yes
+INV-0099,SITE-0050,Bethan Oliver,Medical Oncology,10,Yes
+INV-0100,SITE-0050,Lorraine Palmer,Medical Oncology,20,Yes
+INV-0101,SITE-0051,Arthur Smith,Medical Oncology,17,Yes
+INV-0102,SITE-0051,Christopher Davies,Medical Oncology,10,Yes
+INV-0103,SITE-0052,Bethan Young,Medical Oncology,17,Yes
+INV-0104,SITE-0052,Dr Danny Cook,Medical Oncology,30,Yes
+INV-0105,SITE-0053,Marion Steele-Harper,Medical Oncology,14,Yes
+INV-0106,SITE-0053,Wayne Page-Carter,Medical Oncology,28,No
+INV-0107,SITE-0054,Alexander Taylor,Medical Oncology,22,Yes
+INV-0108,SITE-0054,Frances Buckley-Ryan,Medical Oncology,20,Yes
+INV-0109,SITE-0055,Ms Kayleigh Watson,Medical Oncology,14,Yes
+INV-0110,SITE-0055,David Anderson,Medical Oncology,6,Yes
+INV-0111,SITE-0056,John Griffiths,Medical Oncology,22,Yes
+INV-0112,SITE-0056,Miss Alice Tomlinson,Medical Oncology,15,Yes
+INV-0113,SITE-0057,Miranda Khan,Medical Oncology,23,Yes
+INV-0114,SITE-0057,Dana Kennedy,Medical Oncology,21,Yes
+INV-0115,SITE-0058,Brandon Hopkins,Medical Oncology,21,Yes
+INV-0116,SITE-0058,Jason Shields,Medical Oncology,10,Yes
+INV-0117,SITE-0059,Matthew Lucas,Medical Oncology,7,Yes
+INV-0118,SITE-0059,Nicholas Mcbride,Medical Oncology,12,Yes
+INV-0119,SITE-0060,Corey Herrera,Medical Oncology,23,Yes
+INV-0120,SITE-0060,Clifford Ford,Medical Oncology,24,Yes
+INV-0121,SITE-0061,Angela Morton,Medical Oncology,7,Yes
+INV-0122,SITE-0061,Annette Pearson,Medical Oncology,23,Yes
+INV-0123,SITE-0062,Alexis Davis,Medical Oncology,15,Yes
+INV-0124,SITE-0062,Cynthia Russell,Medical Oncology,11,Yes
+INV-0125,SITE-0063,Dr. Steven Martin,Medical Oncology,15,Yes
+INV-0126,SITE-0063,James House,Medical Oncology,17,Yes
+INV-0127,SITE-0064,Dominique Horton,Medical Oncology,25,Yes
+INV-0128,SITE-0064,Rachel Stanley,Medical Oncology,15,Yes

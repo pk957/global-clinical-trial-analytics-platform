@@ -1,0 +1,65 @@
+site_id,study_id,country_id,site_name,city,activation_date,status
+SITE-0001,CRC-GLB-301,IND,Nagpur Cancer Institute,Nagpur,2024-10-16,Active
+SITE-0002,CRC-GLB-301,IND,Sambalpur Oncology Center,Sambalpur,2023-04-25,Active
+SITE-0003,CRC-GLB-301,IND,Kolhapur Comprehensive Cancer Center,Kolhapur,2023-01-26,Active
+SITE-0004,CRC-GLB-301,IND,Bongaigaon Regional Cancer Hospital,Bongaigaon,2023-10-09,Active
+SITE-0005,CRC-GLB-301,IND,Gudivada Medical Center - Oncology Unit,Gudivada,2023-09-08,Active
+SITE-0006,CRC-GLB-301,IND,Patna University Cancer Hospital,Patna,2023-08-17,Active
+SITE-0007,CRC-GLB-301,IND,Tiruchirappalli General Hospital - Oncology Wing,Tiruchirappalli,2023-05-23,Active
+SITE-0008,CRC-GLB-301,IND,Muzaffarpur Specialist Cancer Clinic,Muzaffarpur,2023-04-15,Active
+SITE-0009,CRC-GLB-301,SGP,North Judithbury Cancer Institute,North Judithbury,2024-11-23,Active
+SITE-0010,CRC-GLB-301,SGP,East Jill Oncology Center,East Jill,2024-07-12,Active
+SITE-0011,CRC-GLB-301,SGP,New Roberttown Comprehensive Cancer Center,New Roberttown,2023-03-31,Active
+SITE-0012,CRC-GLB-301,SGP,East Jessetown Regional Cancer Hospital,East Jessetown,2024-08-27,Active
+SITE-0013,CRC-GLB-301,SGP,Lake Debra Medical Center - Oncology Unit,Lake Debra,2024-03-08,Active
+SITE-0014,CRC-GLB-301,SGP,Robinsonshire University Cancer Hospital,Robinsonshire,2023-02-02,Active
+SITE-0015,CRC-GLB-301,SGP,Lisatown General Hospital - Oncology Wing,Lisatown,2023-01-31,Active
+SITE-0016,CRC-GLB-301,SGP,Lake Roberto Specialist Cancer Clinic,Lake Roberto,2023-04-06,Active
+SITE-0017,CRC-GLB-301,USA,Ericmouth Cancer Institute,Ericmouth,2023-08-12,Active
+SITE-0018,CRC-GLB-301,USA,North Noahstad Oncology Center,North Noahstad,2023-08-27,Active
+SITE-0019,CRC-GLB-301,USA,Cassandraton Comprehensive Cancer Center,Cassandraton,2024-06-01,Active
+SITE-0020,CRC-GLB-301,USA,Herrerafurt Regional Cancer Hospital,Herrerafurt,2024-09-08,Active
+SITE-0021,CRC-GLB-301,USA,New Kellystad Medical Center - Oncology Unit,New Kellystad,2023-01-28,Active
+SITE-0022,CRC-GLB-301,USA,Lake Chad University Cancer Hospital,Lake Chad,2024-07-28,Active
+SITE-0023,CRC-GLB-301,USA,Port Keith General Hospital - Oncology Wing,Port Keith,2023-07-23,Active
+SITE-0024,CRC-GLB-301,USA,Port Jesseville Specialist Cancer Clinic,Port Jesseville,2024-10-27,Active
+SITE-0025,CRC-GLB-301,CAN,North Judithbury Cancer Institute,North Judithbury,2024-12-19,Active
+SITE-0026,CRC-GLB-301,CAN,East Jill Oncology Center,East Jill,2024-07-12,Active
+SITE-0027,CRC-GLB-301,CAN,New Roberttown Comprehensive Cancer Center,New Roberttown,2024-03-05,Active
+SITE-0028,CRC-GLB-301,CAN,East Jessetown Regional Cancer Hospital,East Jessetown,2023-08-14,Active
+SITE-0029,CRC-GLB-301,CAN,Lake Debra Medical Center - Oncology Unit,Lake Debra,2024-04-04,Active
+SITE-0030,CRC-GLB-301,CAN,Robinsonshire University Cancer Hospital,Robinsonshire,2024-08-26,Active
+SITE-0031,CRC-GLB-301,CAN,Lisatown General Hospital - Oncology Wing,Lisatown,2023-10-12,Active
+SITE-0032,CRC-GLB-301,CAN,Lake Roberto Specialist Cancer Clinic,Lake Roberto,2023-01-07,Active
+SITE-0033,CRC-GLB-301,GBR,North Henrybury Cancer Institute,North Henrybury,2023-06-13,Active
+SITE-0034,CRC-GLB-301,GBR,East Timothy Oncology Center,East Timothy,2024-12-15,Active
+SITE-0035,CRC-GLB-301,GBR,New Maryton Comprehensive Cancer Center,New Maryton,2024-03-08,Active
+SITE-0036,CRC-GLB-301,GBR,North Charliebury Regional Cancer Hospital,North Charliebury,2023-12-15,Active
+SITE-0037,CRC-GLB-301,GBR,New Joeside Medical Center - Oncology Unit,New Joeside,2023-10-12,Active
+SITE-0038,CRC-GLB-301,GBR,Quinnshire University Cancer Hospital,Quinnshire,2023-06-09,Active
+SITE-0039,CRC-GLB-301,GBR,Thomasburgh General Hospital - Oncology Wing,Thomasburgh,2023-08-09,Active
+SITE-0040,CRC-GLB-301,GBR,Cookberg Specialist Cancer Clinic,Cookberg,2023-12-11,Active
+SITE-0041,CRC-GLB-301,DEU,Aue Cancer Institute,Aue,2023-04-15,Active
+SITE-0042,CRC-GLB-301,DEU,Goslar Oncology Center,Goslar,2023-04-05,Active
+SITE-0043,CRC-GLB-301,DEU,Dieburg Comprehensive Cancer Center,Dieburg,2024-01-25,Active
+SITE-0044,CRC-GLB-301,DEU,Säckingen Regional Cancer Hospital,Säckingen,2023-04-10,Active
+SITE-0045,CRC-GLB-301,DEU,Saarbrücken Medical Center - Oncology Unit,Saarbrücken,2024-01-03,Active
+SITE-0046,CRC-GLB-301,DEU,Backnang University Cancer Hospital,Backnang,2023-12-19,Active
+SITE-0047,CRC-GLB-301,DEU,Bremervörde General Hospital - Oncology Wing,Bremervörde,2024-09-10,Active
+SITE-0048,CRC-GLB-301,DEU,Genthin Specialist Cancer Clinic,Genthin,2023-09-28,Active
+SITE-0049,CRC-GLB-301,ZAF,Port Tom Cancer Institute,Port Tom,2023-02-14,Active
+SITE-0050,CRC-GLB-301,ZAF,North Jessicaville Oncology Center,North Jessicaville,2024-04-15,Active
+SITE-0051,CRC-GLB-301,ZAF,Leighview Comprehensive Cancer Center,Leighview,2024-07-03,Active
+SITE-0052,CRC-GLB-301,ZAF,Lake Kellyside Regional Cancer Hospital,Lake Kellyside,2023-05-08,Active
+SITE-0053,CRC-GLB-301,ZAF,South Jasonside Medical Center - Oncology Unit,South Jasonside,2024-01-23,Active
+SITE-0054,CRC-GLB-301,ZAF,Teresastad University Cancer Hospital,Teresastad,2023-03-22,Active
+SITE-0055,CRC-GLB-301,ZAF,Lake Brian General Hospital - Oncology Wing,Lake Brian,2024-07-19,Active
+SITE-0056,CRC-GLB-301,ZAF,Lake Julianport Specialist Cancer Clinic,Lake Julianport,2023-10-28,Active
+SITE-0057,CRC-GLB-301,KEN,Ramirezstad Cancer Institute,Ramirezstad,2024-10-05,Active
+SITE-0058,CRC-GLB-301,KEN,West Michael Oncology Center,West Michael,2024-09-25,Active
+SITE-0059,CRC-GLB-301,KEN,Jacquelineland Comprehensive Cancer Center,Jacquelineland,2024-01-06,Active
+SITE-0060,CRC-GLB-301,KEN,New Jessica Regional Cancer Hospital,New Jessica,2024-08-14,Active
+SITE-0061,CRC-GLB-301,KEN,South Noah Medical Center - Oncology Unit,South Noah,2023-07-16,Active
+SITE-0062,CRC-GLB-301,KEN,Lake Mark University Cancer Hospital,Lake Mark,2024-12-22,Active
+SITE-0063,CRC-GLB-301,KEN,East Lydiamouth General Hospital - Oncology Wing,East Lydiamouth,2023-03-13,Active
+SITE-0064,CRC-GLB-301,KEN,Adamsborough Specialist Cancer Clinic,Adamsborough,2023-02-16,Active
