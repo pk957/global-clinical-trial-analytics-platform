@@ -1,12 +1,12 @@
 # Global Clinical Trial Analytics Platform
 
-The Global Clinical Trial Analytics Platform is an end-to-end analytics project built on synthetic oncology clinical-trial data. It models the clinical-trial lifecycle from screening through study completion and supports analysis in AWS and Power BI.
+The Global Clinical Trial Analytics Platform is an end-to-end analytics project built on synthetic oncology clinical-trial data. It models the clinical-trial lifecycle from screening through study completion and supports analytical and stakeholder-facing reporting using Python, AWS data services, SQL, and Power BI Desktop.
 
 > All records in this repository are synthetic. They do not represent real patients and must not be used for clinical decisions.
 
 ## Overview
 
-The project contains a Python data-generation pipeline, related CSV datasets, validation checks, and a Power BI report. The data supports recruitment, site-performance, safety, clinical-operations, treatment-efficacy, and geographic analysis.
+The project contains a Python data-generation pipeline, related CSV datasets, validation checks, and a Power BI Desktop dashboard. The data supports recruitment, site-performance, safety, clinical-operations, treatment-efficacy, and geographic analysis.
 
 ## Technologies used
 
@@ -16,7 +16,7 @@ The project contains a Python data-generation pipeline, related CSV datasets, va
 - AWS Glue Data Catalog
 - Amazon Athena
 - SQL
-- Power BI
+- Power BI Desktop
 - Git and GitHub
 
 ## Dataset
@@ -70,22 +70,30 @@ Use the validation script to check the generated data without modifying it:
 python scripts/00_validate_pipeline.py
 ```
 
-## Power BI report
+## Power BI Dashboard
 
-The completed Power BI report is organized into four pages:
+The final Power BI Desktop dashboard is organized into four stakeholder-facing pages:
 
-1. Executive Overview
-2. Safety & Clinical Operations
-3. Treatment Efficacy & Geography
-4. Supporting Analysis
+1. Executive Overview - overall trial performance, recruitment, population, geography, sites, investigators, and completion indicators.
+2. Safety & Clinical Operations - adverse events, severity, treatment comparison, geography, and serious adverse-event timing.
+3. Treatment Efficacy & Geography - tumor response trends and treatment-response consistency across regions.
+4. Supporting Analysis - additional completion, screening, safety, and treatment-level analytical views.
 
-## AWS and Power BI workflow
+### Dashboard Screenshots
 
-1. Generate the synthetic CSV datasets.
-2. Upload the files in `data/raw/` to Amazon S3.
-3. Create or update tables in the AWS Glue Data Catalog.
-4. Query the catalogued tables with Amazon Athena.
-5. Connect Power BI to Athena and build the report from the related trial data.
+- [Executive Overview](docs/powerbi/Executive_overview.png)
+- [Safety & Clinical Operations](docs/powerbi/Safety&clinical_operations.png)
+- [Treatment Efficacy & Geography](docs/powerbi/Treatment_efficacy&%20Geography.png)
+- [Supporting Analysis](docs/powerbi/supporting_analysis.png)
+
+## Analytics Workflow
+
+1. Generate synthetic clinical-trial CSV datasets using Python.
+2. Store the generated datasets in Amazon S3.
+3. Catalogue the datasets using AWS Glue Data Catalog.
+4. Define and query the analytical tables in Amazon Athena.
+5. Develop SQL analyses and KPI queries in Athena.
+6. Import the relevant datasets into Power BI Desktop for data modelling, analysis, and stakeholder-facing visualization.
 
 ## Setup
 
@@ -109,7 +117,12 @@ The generation scripts use fixed random seeds where appropriate. The `created_at
 |-- data/raw/                  # Generated synthetic CSV tables
 |-- scripts/                   # Generators and read-only validation
 |-- sql/                       # SQL analysis assets
-|-- docs/                      # Project documentation
+|-- docs/
+|   `-- powerbi/
+|       |-- Executive_overview.png
+|       |-- Safety&clinical_operations.png
+|       |-- Treatment_efficacy& Geography.png
+|       `-- supporting_analysis.png
 |-- requirements.txt
 `-- README.md
 ```
@@ -117,4 +130,4 @@ The generation scripts use fixed random seeds where appropriate. The `created_at
 ## Author
 
 Prasanna Kumar
- Data Analyst
+Data Analyst
